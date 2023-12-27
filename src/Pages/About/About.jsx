@@ -37,7 +37,7 @@ const About = () => {
           excepcionales.
         </p>
         <a
-          href='../../../public/CV Yeremi Gonzalez2.pdf'
+          href='https://yeremigonzalez-portfolio.netlify.app/CV Yeremi Gonzalez2.pdf'
           download='CV Yeremi Gonzalez'
         >
           <FaDownload />
