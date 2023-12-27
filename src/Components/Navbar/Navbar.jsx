@@ -2,6 +2,7 @@ import { FiCommand } from 'react-icons/fi'
 import { IoHomeOutline, IoCodeSlashOutline } from 'react-icons/io5'
 import { FaRegUser } from 'react-icons/fa6'
 import { LuGithub } from 'react-icons/lu'
+import { FaRegMessage } from 'react-icons/fa6'
 import { Link } from 'react-router-dom'
 import './navbar.css'
 import PropTypes from 'prop-types'
@@ -82,7 +83,7 @@ const Navbar = ({
                     }}
                     to={'/contact'}
                   >
-                    <IoCodeSlashOutline />
+                    <FaRegMessage />
                     <span>Contactame</span>
                   </Link>
                 </div>
