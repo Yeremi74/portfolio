@@ -3,7 +3,7 @@ import './about.css'
 const About = () => {
   return (
     <main className='about__container'>
-      <h2>Crear. Compartir. Repetir</h2>
+      <h2>Crear. Compartir. Repetir.</h2>
       <div className='about__info'>
         <div className='img_container'>
           <img
@@ -26,7 +26,7 @@ const About = () => {
       <div className='bio__info'>
         <span>Bio</span>
         <p className='desc'>
-          Como desarrollador front-end, me apasiona la creación de aplicaciones
+          Como desarrollador Front-end, me apasiona la creación de aplicaciones
           web que no solo cuenten con funcionalidades sobresalientes, sino que
           también ofrezcan una experiencia de usuario intuitiva y accesible. Me
           fascina ver cómo mis ideas cobran vida en cada paso del desarrollo de
