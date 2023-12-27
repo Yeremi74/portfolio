@@ -81,11 +81,11 @@
       transform: translate(-50%, -50%);
       width: 50%;
       height: 70%;
-      overflow-y: scroll;
+      /* overflow-y: scroll; */
       background-color: #1d1e1c;
       padding: 0;
 
-      &::-webkit-scrollbar {
+      /* &::-webkit-scrollbar {
         width: 12px;
       }
 
@@ -100,7 +100,7 @@
 
       &::-webkit-scrollbar-thumb:hover {
         background: #555;
-      }
+      } */
       .top {
         height: 70px;
         position: sticky;
@@ -125,6 +125,7 @@
         display: flex;
         flex-direction: column;
         gap: 15px;
+        padding-top: 15px;
 
         .category {
           display: flex;

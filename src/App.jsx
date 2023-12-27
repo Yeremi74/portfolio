@@ -22,6 +22,7 @@ const Layout = () => {
   const location = useLocation()
   useEffect(() => {
     setMobileMenu(false)
+    window.scrollTo(0, 0)
   }, [location])
 
   useEffect(() => {

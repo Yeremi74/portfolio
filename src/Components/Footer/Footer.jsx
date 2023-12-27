@@ -4,7 +4,9 @@ import './footer.css'
 const Footer = () => {
   return (
     <footer>
-      <Link>GitHub</Link>
+      <Link to={'https://github.com/Yeremi74'} target='_blank'>
+        <span>GitHub</span>
+      </Link>
     </footer>
   )
 }

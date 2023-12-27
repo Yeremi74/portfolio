@@ -3,7 +3,8 @@ footer {
   display: flex;
   justify-content: center;
   gap: 80px;
-  a {
+  a,
+  span {
     color: var(--text--color);
 
     &:hover {

@@ -42,25 +42,36 @@ const Navbar = ({
             {/* a bg se le cambia a false */}
             <div className='bg' onClick={() => setSearchActive(false)}></div>
             <div className='search__container'>
-              <div className='top'>
-                <input
-                  type='text'
-                  placeholder='Escribe un comando o una busqueda...'
-                />
-              </div>
-
               <div className='categories'>
                 <div className='navigation category'>
                   <p>Páginas</p>
-                  <Link to={'/'}>
+                  <Link
+                    onClick={() => {
+                      setMobileMenu(!mobileMenu)
+                      setSearchActive(false)
+                    }}
+                    to={'/'}
+                  >
                     <IoHomeOutline />
                     <span>Home</span>
                   </Link>
-                  <Link to={'/about'}>
+                  <Link
+                    onClick={() => {
+                      setMobileMenu(!mobileMenu)
+                      setSearchActive(false)
+                    }}
+                    to={'/about'}
+                  >
                     <FaRegUser />
                     <span>About</span>
                   </Link>
-                  <Link to={'/projects'}>
+                  <Link
+                    onClick={() => {
+                      setMobileMenu(!mobileMenu)
+                      setSearchActive(false)
+                    }}
+                    to={'/projects'}
+                  >
                     <IoCodeSlashOutline />
                     <span>Projects</span>
                   </Link>
@@ -68,7 +79,14 @@ const Navbar = ({
 
                 <div className='social_media category'>
                   <p>Redes Sociales</p>
-                  <Link to={'https://github.com/Yeremi74'} target='_blank'>
+                  <Link
+                    onClick={() => {
+                      setMobileMenu(!mobileMenu)
+                      setSearchActive(false)
+                    }}
+                    to={'https://github.com/Yeremi74'}
+                    target='_blank'
+                  >
                     <LuGithub />
                     <span>GitHub</span>
                   </Link>
