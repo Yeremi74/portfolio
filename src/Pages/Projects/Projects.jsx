@@ -30,9 +30,9 @@ const Projects = () => {
               <div className='info_proj'>
                 <h4>{item.title}</h4>
                 <p>{item.desc}</p>
-                <span>
+                <Link to={item.url} target='_blank' className='visit'>
                   Visitar Proyecto <FaArrowRight />
-                </span>
+                </Link>
               </div>
               <img
                 src={`${item.img}`}
