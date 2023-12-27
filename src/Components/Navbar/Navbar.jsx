@@ -53,7 +53,7 @@ const Navbar = ({
                     to={'/'}
                   >
                     <IoHomeOutline />
-                    <span>Home</span>
+                    <span>Inicio</span>
                   </Link>
                   <Link
                     onClick={() => {
@@ -63,7 +63,7 @@ const Navbar = ({
                     to={'/about'}
                   >
                     <FaRegUser />
-                    <span>About</span>
+                    <span>Sobre mi</span>
                   </Link>
                   <Link
                     onClick={() => {
@@ -73,7 +73,17 @@ const Navbar = ({
                     to={'/projects'}
                   >
                     <IoCodeSlashOutline />
-                    <span>Projects</span>
+                    <span>Proyectos</span>
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setMobileMenu(!mobileMenu)
+                      setSearchActive(false)
+                    }}
+                    to={'/contact'}
+                  >
+                    <IoCodeSlashOutline />
+                    <span>Contactame</span>
                   </Link>
                 </div>
 

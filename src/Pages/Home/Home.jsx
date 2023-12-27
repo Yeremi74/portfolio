@@ -13,13 +13,13 @@ const Home = () => {
       </div>
       <div className='info'>
         <h1>Yeremi González</h1>
-        <span>Desarrollador Front-End</span>
+        {/* <span>Desarrollador Front-End</span> */}
         <p>
-          Desarrollador web junior especializado en React.js, listo para dar el
-          siguiente paso. Con un año de experiencia, he mejorado mis habilidades
-          en el desarrollo de aplicaciones web interactivas y eficientes.
-          Siempre estoy buscando nuevas oportunidades para crecer, aprender y
-          aportar valor al equipo.
+          Desarrollador web Front-End junior especializado en React.js, listo
+          para dar el siguiente paso. Con un año de aprendizaje, he mejorado mis
+          habilidades en el desarrollo de aplicaciones web interactivas y
+          eficientes. Siempre estoy buscando nuevas oportunidades para crecer,
+          aprender y aportar valor al equipo.
         </p>
 
         <button onClick={() => changeActiveSearch()}>

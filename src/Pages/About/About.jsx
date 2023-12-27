@@ -19,7 +19,7 @@ const About = () => {
           <br />
           <br />
           En mis tiempos libres disfruto de ejercitarme, leer artículos sobre
-          diversos temas de programación y diseñar y crear prendas de ropa.
+          diversos temas de programación, diseñar y crear prendas de ropa
           emergentes que impactan, inspiran y conectan con las personas.
         </p>
       </div>
