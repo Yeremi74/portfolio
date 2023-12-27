@@ -1,0 +1,13 @@
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  a {
+    color: var(--text--color);
+
+    &:hover {
+      color: white;
+    }
+  }
+}
