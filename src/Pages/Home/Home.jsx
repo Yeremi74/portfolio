@@ -7,7 +7,7 @@ const Home = () => {
     <main className='main__info'>
       <div className='img'>
         <img
-          src='https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+          src='https://storied-crostata-698a39.netlify.app/photo1.jpg'
           alt=''
         />
       </div>
