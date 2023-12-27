@@ -6,10 +6,7 @@ const About = () => {
       <h2>Crear. Compartir. Repetir.</h2>
       <div className='about__info'>
         <div className='img_container'>
-          <img
-            src='https://yeremigonzalez-portfolio.netlify.app/photo2.jpg'
-            alt=''
-          />
+          <img src='https://yeremiportafolio.netlify.app/photo2.jpg' alt='' />
         </div>
         <p>
           Soy un joven estudiante, ambicioso y disciplinado, con gran
@@ -37,7 +34,7 @@ const About = () => {
           excepcionales.
         </p>
         <a
-          href='https://yeremigonzalez-portfolio.netlify.app/CV Yeremi Gonzalez2.pdf'
+          href='https://yeremiportafolio.netlify.app/CV Yeremi Gonzalez2.pdf'
           download='CV Yeremi Gonzalez'
         >
           <FaDownload />
