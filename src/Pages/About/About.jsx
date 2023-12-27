@@ -7,7 +7,7 @@ const About = () => {
       <div className='about__info'>
         <div className='img_container'>
           <img
-            src='https://storied-crostata-698a39.netlify.app/photo2.jpg'
+            src='https://yeremigonzalez-portfolio.netlify.app/photo2.jpg'
             alt=''
           />
         </div>
