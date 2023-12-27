@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import './contact.css'
 import { useRef, useState } from 'react'
 import emailjs from '@emailjs/browser'
+import { FaRegCheckCircle } from 'react-icons/fa'
 
 const Contact = () => {
   const [name, setName] = useState('')
@@ -10,6 +11,7 @@ const Contact = () => {
   const [nameError, setNameError] = useState('')
   const [emailError, setEmailError] = useState('')
   const [messageError, setMessageError] = useState('')
+  const [alert, setAlert] = useState(false)
 
   const refForm = useRef()
   const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
@@ -19,6 +21,12 @@ const Contact = () => {
   const apiKey = '3JF_TnNQxhT9mU85s'
 
   const handleSubmit = e => {
+    setAlert(true)
+    console.log(alert)
+    setTimeout(() => {
+      setAlert(false)
+      console.log(alert)
+    }, 3000)
     e.preventDefault()
 
     // Restablecer los errores
@@ -87,6 +95,12 @@ const Contact = () => {
       </div>
 
       <form onSubmit={handleSubmit} ref={refForm}>
+        {alert && (
+          <div className='alert'>
+            <FaRegCheckCircle />
+            Correo enviado correctamente
+          </div>
+        )}
         <div className='form_content'>
           <div className='text'>
             <label>
@@ -133,6 +147,7 @@ const Contact = () => {
             {messageError && <p className='error__message'>{messageError}</p>}
           </label>
         </div>
+
         <input type='submit' value='ENVIAR' />
       </form>
     </main>

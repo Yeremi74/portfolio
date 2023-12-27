@@ -46,8 +46,9 @@
   }
 
   form {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
+    position: relative;
 
     textarea,
     input,
@@ -58,6 +59,21 @@
       padding: 10px;
       border-radius: 5px;
       background-color: var(--primary--gray);
+    }
+
+    .alert {
+      position: fixed;
+      top: 100px;
+      right: 10px;
+      background-color: #62ac62;
+      padding: 10px;
+      border-radius: 3px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 18px;
+      /* animation: slidein 2s forwards; */
+      animation: slidein 1s forwards;
     }
 
     .form_content {
@@ -124,4 +140,16 @@
       }
     }
   }
+}
+@keyframes slidein {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+  /* 100% {
+    opacity: 0;
+  } */
 }
