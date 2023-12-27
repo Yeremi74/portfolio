@@ -63,7 +63,7 @@ const Contact = () => {
           usted!
         </p>
         <p>
-          Consultas por correo electrónico a
+          Consultas por correo electrónico a {''}
           <a href='mailto:yyeremi15@gmail.com'>yyeremi15@gmail.com</a> o a
           través de las redes sociales:
         </p>

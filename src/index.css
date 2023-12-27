@@ -40,11 +40,6 @@ body {
     overflow-y: hidden;
   } */
 }
-
-@media (max-width: 740px) {
-  .container {
-    width: 100vw;
-    overflow: hidden;
-    /* background-color: red; */
-  }
+html {
+  overflow-x: hidden;
 }

@@ -1,6 +1,7 @@
 .project_container {
-  width: 60%;
-  margin: 100px 0;
+  max-width: 860px;
+  margin: 100px auto;
+  padding: 0 20px;
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -78,6 +79,40 @@
         &:hover {
           img {
             transform: translateY(-20px);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 740px) {
+  .project_container {
+    width: 100%;
+    .projects_info {
+      h2 {
+        font-size: 38px;
+      }
+      p {
+        font-size: 20px;
+      }
+    }
+
+    .projects {
+      .projects_content {
+        gap: 70px;
+        .project {
+          flex-direction: column-reverse;
+          width: 100%;
+          gap: 20px;
+
+          .info_proj {
+            p {
+              width: 100%;
+            }
+          }
+          img {
+            width: 100%;
           }
         }
       }
