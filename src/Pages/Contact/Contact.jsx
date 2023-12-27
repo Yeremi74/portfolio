@@ -21,12 +21,6 @@ const Contact = () => {
   const apiKey = '3JF_TnNQxhT9mU85s'
 
   const handleSubmit = e => {
-    setAlert(true)
-    console.log(alert)
-    setTimeout(() => {
-      setAlert(false)
-      console.log(alert)
-    }, 3000)
     e.preventDefault()
 
     // Restablecer los errores
@@ -56,6 +50,12 @@ const Contact = () => {
         .sendForm(serviceId, templateId, refForm.current, apiKey)
         .then(result => console.log(result.text))
         .catch(error => console.log(error))
+      setAlert(true)
+      console.log(alert)
+      setTimeout(() => {
+        setAlert(false)
+        console.log(alert)
+      }, 3000)
       setName('')
       setEmail('')
       setMessage('')

@@ -73,6 +73,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      z-index: 10;
     }
     .search__container {
       position: fixed;
@@ -84,7 +85,7 @@
       /* overflow-y: scroll; */
       background-color: #1d1e1c;
       padding: 0;
-
+      z-index: 11;
       /* &::-webkit-scrollbar {
         width: 12px;
       }
