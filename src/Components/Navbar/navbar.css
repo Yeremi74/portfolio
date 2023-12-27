@@ -175,8 +175,8 @@
         display: block;
         position: fixed;
         font-size: 38px;
-        top: 10px;
-        right: 10px;
+        top: 15px;
+        right: 15px;
         z-index: 10;
         cursor: pointer;
       }
