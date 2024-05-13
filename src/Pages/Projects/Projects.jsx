@@ -1,7 +1,8 @@
-import { Link } from 'react-router-dom'
-import { FaArrowRight } from 'react-icons/fa6'
-import './projects.css'
-import { projectList } from '../../../utils'
+import { Link } from 'react-router-dom';
+import { FaArrowRight } from 'react-icons/fa6';
+import './projects.css';
+import { projectList } from '../../../utils';
+
 const Projects = () => {
   return (
     <main className='project_container'>
@@ -20,7 +21,7 @@ const Projects = () => {
       <div className='projects'>
         <h3>Todos los proyectos</h3>
         <div className='projects_content'>
-          {projectList.map(item => (
+          {projectList.map((item) => (
             <Link
               className='project'
               key={item.title}
@@ -43,7 +44,7 @@ const Projects = () => {
         </div>
       </div>
     </main>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;
