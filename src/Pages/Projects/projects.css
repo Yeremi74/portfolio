@@ -55,6 +55,10 @@
 
           p {
             width: 90%;
+
+            .user {
+              color: rgb(249, 98, 98);
+            }
           }
           .visit {
             color: var(--colors-orange);
@@ -72,6 +76,9 @@
 
         img {
           width: 50%;
+          height: 400px;
+          object-fit: cover;
+          object-position: center;
           border-radius: 15px;
           transition: all 0.2s;
         }
