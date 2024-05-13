@@ -1,17 +1,17 @@
-import { FiCommand } from 'react-icons/fi'
-import { IoHomeOutline, IoCodeSlashOutline } from 'react-icons/io5'
-import { FaRegUser } from 'react-icons/fa6'
-import { LuGithub } from 'react-icons/lu'
-import { FaRegMessage } from 'react-icons/fa6'
-import { Link } from 'react-router-dom'
-import './navbar.css'
-import PropTypes from 'prop-types'
+import { FiCommand } from 'react-icons/fi';
+import { IoHomeOutline, IoCodeSlashOutline } from 'react-icons/io5';
+import { FaRegUser } from 'react-icons/fa6';
+import { LuGithub } from 'react-icons/lu';
+import { FaRegMessage } from 'react-icons/fa6';
+import { Link } from 'react-router-dom';
+import './navbar.css';
+import PropTypes from 'prop-types';
 
 const Navbar = ({
   setSearchActive,
   searchActive,
   setMobileMenu,
-  mobileMenu
+  mobileMenu,
 }) => {
   return (
     <div className='navContent'>
@@ -19,8 +19,8 @@ const Navbar = ({
         <span
           className='close_btn'
           onClick={() => {
-            setMobileMenu(!mobileMenu)
-            setSearchActive(false)
+            setMobileMenu(!mobileMenu);
+            setSearchActive(false);
           }}
         >
           <FiCommand />
@@ -31,7 +31,7 @@ const Navbar = ({
           </div>
           <div className='links'>
             <Link to='/about'>sobre mi</Link>
-            <Link to='/projects'>proyectos</Link>
+            <Link to='/projects'>proyectosa</Link>
             <Link to='/contact'>contactame</Link>
           </div>
           <div className='search' onClick={() => setSearchActive(true)}>
@@ -48,8 +48,8 @@ const Navbar = ({
                   <p>Páginas</p>
                   <Link
                     onClick={() => {
-                      setMobileMenu(!mobileMenu)
-                      setSearchActive(false)
+                      setMobileMenu(!mobileMenu);
+                      setSearchActive(false);
                     }}
                     to={'/'}
                   >
@@ -58,8 +58,8 @@ const Navbar = ({
                   </Link>
                   <Link
                     onClick={() => {
-                      setMobileMenu(!mobileMenu)
-                      setSearchActive(false)
+                      setMobileMenu(!mobileMenu);
+                      setSearchActive(false);
                     }}
                     to={'/about'}
                   >
@@ -68,8 +68,8 @@ const Navbar = ({
                   </Link>
                   <Link
                     onClick={() => {
-                      setMobileMenu(!mobileMenu)
-                      setSearchActive(false)
+                      setMobileMenu(!mobileMenu);
+                      setSearchActive(false);
                     }}
                     to={'/projects'}
                   >
@@ -78,8 +78,8 @@ const Navbar = ({
                   </Link>
                   <Link
                     onClick={() => {
-                      setMobileMenu(!mobileMenu)
-                      setSearchActive(false)
+                      setMobileMenu(!mobileMenu);
+                      setSearchActive(false);
                     }}
                     to={'/contact'}
                   >
@@ -92,8 +92,8 @@ const Navbar = ({
                   <p>Redes Sociales</p>
                   <Link
                     onClick={() => {
-                      setMobileMenu(!mobileMenu)
-                      setSearchActive(false)
+                      setMobileMenu(!mobileMenu);
+                      setSearchActive(false);
                     }}
                     to={'https://github.com/Yeremi74'}
                     target='_blank'
@@ -108,13 +108,13 @@ const Navbar = ({
         )}
       </nav>
     </div>
-  )
-}
+  );
+};
 Navbar.propTypes = {
   setSearchActive: PropTypes.bool.isRequired,
   searchActive: PropTypes.bool.isRequired,
   setMobileMenu: PropTypes.bool.isRequired,
-  mobileMenu: PropTypes.bool.isRequired
-}
+  mobileMenu: PropTypes.bool.isRequired,
+};
 
-export default Navbar
+export default Navbar;
