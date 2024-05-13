@@ -31,7 +31,7 @@ const Navbar = ({
           </div>
           <div className='links'>
             <Link to='/about'>sobre mi</Link>
-            <Link to='/projects'>proyectosa</Link>
+            <Link to='/projects'>proyectos</Link>
             <Link to='/contact'>contactame</Link>
           </div>
           <div className='search' onClick={() => setSearchActive(true)}>
