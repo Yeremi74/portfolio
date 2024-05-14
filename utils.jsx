@@ -69,4 +69,55 @@ export const projectList = [
     url: 'https://frontendecommercemern.netlify.app/',
     img: 'https://yeremiportafolio.netlify.app/EcommerceMERN.PNG',
   },
+  {
+    title: 'Task Manager',
+    desc: (
+      <div>
+        <strong>Registro de Usuarios:</strong>
+        <br />
+        <p>
+          Los usuarios se registran en la aplicación proporcionando información
+          básica como nombre de usuario, dirección de correo electrónico y
+          contraseña. Este proceso les permite acceder a sus cuentas de forma
+          segura.
+        </p>
+        <br />
+        <br />
+        <strong>Inicio de Sesión:</strong>
+        <p>
+          Después del registro, los usuarios pueden iniciar sesión en la
+          aplicación utilizando sus credenciales registradas.
+        </p>
+
+        <br />
+        <br />
+        <strong>Gestión de Tareas:</strong>
+        <p>
+          Una vez que los usuarios están dentro de la aplicación, tienen la
+          capacidad de crear nuevas tareas. Cada tarea puede contener una
+          descripción detallada de lo que implica y la fecha en la que fue
+          creada.
+        </p>
+        <br />
+        <br />
+
+        <strong>Modificación de Tareas:</strong>
+        <p>
+          Los usuarios pueden editar las tareas existentes en cualquier momento.
+          Esto les permite cambiar la descripción de la tarea o actualizar la
+          fecha de creación según sea necesario.
+        </p>
+        <br />
+        <br />
+        <strong>Eliminación de Tareas:</strong>
+        <p>
+          Además de editar, los usuarios también pueden eliminar tareas de su
+          lista. Esto les permite mantener su lista de tareas organizada y
+          relevante.
+        </p>
+      </div>
+    ),
+    url: 'https://taskmernfrontend.netlify.app/',
+    img: 'https://yeremiportafolio.netlify.app/Task manager.PNG',
+  },
 ];
