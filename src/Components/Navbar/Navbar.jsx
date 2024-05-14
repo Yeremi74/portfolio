@@ -6,6 +6,7 @@ import { FaRegMessage } from 'react-icons/fa6';
 import { Link } from 'react-router-dom';
 import './navbar.css';
 import PropTypes from 'prop-types';
+import { FaLinkedinIn } from 'react-icons/fa';
 
 const Navbar = ({
   setSearchActive,
@@ -100,6 +101,17 @@ const Navbar = ({
                   >
                     <LuGithub />
                     <span>GitHub</span>
+                  </Link>
+                  <Link
+                    onClick={() => {
+                      setMobileMenu(!mobileMenu);
+                      setSearchActive(false);
+                    }}
+                    to={'https://www.linkedin.com/in/yeremigonzalez7/'}
+                    target='_blank'
+                  >
+                    <FaLinkedinIn />
+                    <span>LinkedIn</span>
                   </Link>
                 </div>
               </div>
