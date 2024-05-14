@@ -123,9 +123,9 @@ const Navbar = ({
   );
 };
 Navbar.propTypes = {
-  setSearchActive: PropTypes.bool.isRequired,
+  setSearchActive: PropTypes.func.isRequired,
   searchActive: PropTypes.bool.isRequired,
-  setMobileMenu: PropTypes.bool.isRequired,
+  setMobileMenu: PropTypes.func.isRequired,
   mobileMenu: PropTypes.bool.isRequired,
 };
 

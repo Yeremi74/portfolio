@@ -1,6 +1,6 @@
-import { FaArrowRight } from 'react-icons/fa6'
-import './home.css'
-import { changeActiveSearch } from '../../App'
+import { FaArrowRight } from 'react-icons/fa6';
+import './home.css';
+import { changeActiveSearch } from '../../App';
 
 const Home = () => {
   return (
@@ -25,7 +25,7 @@ const Home = () => {
         </button>
       </div>
     </main>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
