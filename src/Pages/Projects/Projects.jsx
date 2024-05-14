@@ -22,11 +22,11 @@ const Projects = () => {
         <h3>Todos los proyectos</h3>
         <div className='projects_content'>
           {projectList.map((item) => (
-            <Link
+            <div
               className='project'
               key={item.title}
-              to={item.url}
-              target='_blank'
+              // to={item.url}
+              // target='_blank'
             >
               <div className='info_proj'>
                 <h4>{item.title}</h4>
@@ -39,7 +39,7 @@ const Projects = () => {
                 src={`${item.img}`}
                 alt={`imagen del projecto: ${item.title}`}
               />
-            </Link>
+            </div>
           ))}
         </div>
       </div>
