@@ -8,18 +8,13 @@ const Projects = () => {
     <main className='project_container'>
       <div className='projects_info'>
         <h2>Pasión. Aprendizaje. Descubrir.</h2>
-        <p>
-          Mi trayectoria de aprendizaje ha estado impulsada por una obsesión
-          incansable por el desarrollo de numerosos proyectos, ya que siempre
-          encuentro fascinante la adquisición de nuevos conocimientos a través
-          de la creación innovadora. Entre todos estos, {projectList.length} de
-          mis proyectos han destacado particularmente por su carácter
-          revolucionario.
-        </p>
+        <p>🚧 Proyectos en desarrollo
+        <br />
+        Actualmente estoy trabajando en nuevos proyectos personales que pronto verán la luz. Mientras tanto, te invito a explorar mi experiencia laboral y formación académica para conocer mejor mi trabajo.</p>
       </div>
 
       <div className='projects'>
-        <h3>Todos los proyectos</h3>
+        {/* <h3>Todos los proyectos</h3> */}
         <div className='projects_content'>
           {projectList.map((item) => (
             <div

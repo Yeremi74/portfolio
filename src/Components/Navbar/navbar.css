@@ -82,26 +82,29 @@
       transform: translate(-50%, -50%);
       width: 50%;
       height: 70%;
-      /* overflow-y: scroll; */
+      overflow: auto;
       background-color: #1d1e1c;
       padding: 0;
       z-index: 11;
-      /* &::-webkit-scrollbar {
+      
+      &::-webkit-scrollbar {
         width: 12px;
       }
 
       &::-webkit-scrollbar-track {
-        background: #f1f1f1;
-      }
-
-      &::-webkit-scrollbar-thumb {
-        background: #0c0c0ce8;
+        background: rgba(28, 28, 28, 0.5);
         border-radius: 10px;
       }
 
+      &::-webkit-scrollbar-thumb {
+        background: white;
+        border-radius: 10px;
+        border: 2px solid rgba(28, 28, 28, 0.3);
+      }
+
       &::-webkit-scrollbar-thumb:hover {
-        background: #555;
-      } */
+        background: rgb(214, 214, 214);
+      } 
       .top {
         height: 70px;
         position: sticky;

@@ -9,32 +9,24 @@ const About = () => {
           <img src='https://yeremiportafolio.netlify.app/photo2.jpg' alt='' />
         </div>
         <p>
-          Soy un joven estudiante, ambicioso y disciplinado, con gran
-          motivación. Me gusta asumir nuevos retos que me permitan poner en
-          práctica los conocimientos adquiridos, así como aprender cosas nuevas,
-          ya que tengo una gran capacidad para un rápido aprendizaje.
+          Soy Yeremi, desarrollador FullStack y estudiante de Informática.
           <br />
+          Me defino por mi curiosidad: gran parte de lo que sé lo he aprendido por mi cuenta, y disfruto cada desafío como una oportunidad para crecer. Creo en el equilibrio entre la disciplina técnica y el trabajo en equipo.
+          Fuera del código, me mantengo activo ejercitándome y leyendo sobre tecnología. Son dos actividades que me ayudan a despejar la mente y, paradójicamente, a encontrar nuevas perspectivas para resolver problemas.
           <br />
-          En mis tiempos libres disfruto de ejercitarme, leer artículos sobre
-          diversos temas de programación, diseñar y crear prendas de ropa
-          emergentes que impactan, inspiran y conectan con las personas.
+          Para mí, ser desarrollador no es solo escribir código: es crear, aprender y compartir.
         </p>
       </div>
       <div className='bio__info'>
         <span>Bio</span>
         <p className='desc'>
-          Como desarrollador Front-end, me apasiona la creación de aplicaciones
-          web que no solo cuenten con funcionalidades sobresalientes, sino que
-          también ofrezcan una experiencia de usuario intuitiva y accesible. Me
-          fascina ver cómo mis ideas cobran vida en cada paso del desarrollo de
-          la aplicación. Además, la constante evolución de las tecnologías, ya
-          sea a través de nuevos frameworks o librerías, siempre despierta mi
-          curiosidad y deseo de aprender. En última instancia, mi objetivo es
-          combinar innovación e interactividad para crear soluciones web
-          excepcionales.
+          Desarrollador FullStack enfocado en crear aplicaciones escalables y experiencias de usuario fluidas.
+          Disfruto el desafío de integrar tecnologías, optimizar rendimiento y resolver problemas complejos. La evolución constante del sector me mantiene curioso y en aprendizaje continuo.
+          Creo que la mejor tecnología es la que se usa con propósito. Por eso, mi objetivo es construir software con calidad, accesibilidad e impacto real en las personas.
+
         </p>
         <a
-          href='https://yeremiportafolio.netlify.app/CV Yeremi Gonzalez2.pdf'
+          href='/CV Yeremi Gonzalez2.pdf'
           download='CV Yeremi Gonzalez'
         >
           <FaDownload />

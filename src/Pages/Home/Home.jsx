@@ -12,15 +12,14 @@ const Home = () => {
         <h1>Yeremi González</h1>
         {/* <span>Desarrollador Front-End</span> */}
         <p>
-          Desarrollador web Front-End junior especializado en React.js, listo
-          para dar el siguiente paso. Con un año de aprendizaje, he mejorado mis
-          habilidades en el desarrollo de aplicaciones web interactivas y
-          eficientes. Siempre estoy buscando nuevas oportunidades para crecer,
-          aprender y aportar valor al equipo.
+        
+<b>Desarrollador FullStack especializado en React y Node.</b>
+<br />
+Construyo aplicaciones web escalables, integro APIs externas y optimizo la experiencia del usuario. Me motiva resolver problemas reales, trabajar en equipo y seguir aprendiendo con cada proyecto.
         </p>
 
         <button onClick={() => changeActiveSearch()}>
-          Press <kbd>ctrl</kbd> <kbd>k</kbd> to start
+          Presiona <kbd>ctrl</kbd> <kbd>k</kbd> para iniciar
           <FaArrowRight />
         </button>
       </div>
