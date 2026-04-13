@@ -121,8 +121,47 @@ export const projectList = [
   //   img: 'https://yeremiportafolio.netlify.app/Task manager.PNG',
   // },
   {
-    title:"expense",
-    img:"https://yeremiportafolio.netlify.app/expenseTracker.png", 
-    url:'https://expense-tracker-yg.vercel.app'
-  }
+    title: 'Expense Tracker (multi‑moneda)',
+    img: 'https://yeremiportafolio.netlify.app/expenseTracker.png',
+    url: 'https://expense-tracker-yg.vercel.app',
+    desc: (
+      <div>
+        <p>
+          En Venezuela, llevar finanzas personales ya no es solo anotar ingresos y
+          gastos: conviven bolívares, dólares y USDT, y las tasas cambian todo el
+          tiempo. Si registras todo en una sola moneda, días después pierdes la
+          referencia real de cuánto gastaste.
+        </p>
+        <br />
+        <p>
+          En esta app registras cada gasto en una moneda y el monto se convierte
+          automáticamente a Bs, USD y USDT, manteniendo el contexto de cada
+          transacción en el tiempo para que entiendas cuánto gastaste, sin
+          distorsiones por el tipo de cambio.
+        </p>
+        <br />
+        <strong>Estrategia 50/30/20</strong>
+        <p>
+          Incluye una sección basada en la regla 50/30/20: 50% necesidades, 30%
+          estilo de vida y 20% ahorro o inversión, para organizar tus gastos de
+          forma simple y efectiva.
+        </p>
+        <br />
+        <p>
+          Es un proyecto que nació de una necesidad personal: una herramienta que
+          uso en el día a día y que también forma parte de mi portafolio como
+          desarrollador, orientada a problemas reales.
+        </p>
+        <br />
+        <aside className='project_desc_note' role='note'>
+          <strong>Aviso</strong>
+          <span>
+            El backend está desplegado en un hosting con plan gratuito; puede
+            entrar en inactividad y tardar unos segundos en responder al volver a
+            activarse.
+          </span>
+        </aside>
+      </div>
+    ),
+  },
 ];

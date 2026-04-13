@@ -60,6 +60,38 @@
               color: rgb(249, 98, 98);
             }
           }
+
+          .project_desc_note {
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            margin: 0;
+            padding: 14px 16px;
+            border-radius: 10px;
+            border: 1px solid rgba(229, 174, 73, 0.45);
+            border-left-width: 4px;
+            border-left-color: var(--colors-orange);
+            background: linear-gradient(
+              135deg,
+              rgba(229, 174, 73, 0.14) 0%,
+              rgba(128, 255, 234, 0.06) 100%
+            );
+            box-shadow: 0 4px 18px rgba(0, 0, 0, 0.12);
+            font-size: 1.05em;
+            line-height: 1.5;
+            color: var(--text--color);
+          }
+
+          .project_desc_note strong {
+            color: var(--colors-orange);
+            font-size: 1.1em;
+            letter-spacing: 0.02em;
+          }
+
+          .project_desc_note span {
+            display: block;
+          }
           .visit:hover {
             background-color: rgb(31, 31, 31);
           }
@@ -124,6 +156,10 @@
 
           .info_proj {
             p {
+              width: 100%;
+            }
+
+            .project_desc_note {
               width: 100%;
             }
           }
