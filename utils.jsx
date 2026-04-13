@@ -120,4 +120,9 @@ export const projectList = [
   //   url: 'https://taskmernfrontend.netlify.app/',
   //   img: 'https://yeremiportafolio.netlify.app/Task manager.PNG',
   // },
+  {
+    title:"expense",
+    img:"https://yeremiportafolio.netlify.app/expenseTracker.png", 
+    url:'https://expense-tracker-yg.vercel.app'
+  }
 ];
