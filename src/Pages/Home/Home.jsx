@@ -5,9 +5,9 @@ import { changeActiveSearch } from '../../App';
 const Home = () => {
   return (
     <main className='main__info'>
-      <div className='img'>
+      {/* <div className='img'>
         <img src='https://yeremiportafolio.netlify.app/photo1.jpg' alt='' />
-      </div>
+      </div> */}
       <div className='info'>
         <h1>Yeremi González</h1>
         {/* <span>Desarrollador Front-End</span> */}

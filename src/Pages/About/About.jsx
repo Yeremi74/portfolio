@@ -5,9 +5,9 @@ const About = () => {
     <main className='about__container'>
       <h2>Crear. Compartir. Repetir.</h2>
       <div className='about__info'>
-        <div className='img_container'>
+        {/* <div className='img_container'>
           <img src='https://yeremiportafolio.netlify.app/photo2.jpg' alt='' />
-        </div>
+        </div> */}
         <p>
           Soy Yeremi, desarrollador FullStack y estudiante de Informática.
           <br />
