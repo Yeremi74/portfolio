@@ -164,4 +164,33 @@ export const projectList = [
       </div>
     ),
   },
+  {
+    title: 'WhatsApp Clone (mensajería en tiempo real)',
+    img: 'https://yeremiportafolio.netlify.app/whatsappClone.png',
+    url: 'https://whatsapp-clone-yg.vercel.app',
+    desc: (
+      <div>
+        <p>
+          Aplicación de mensajería inspirada en WhatsApp: conversaciones en tiempo
+          real, envío y recepción de mensajes al instante y una interfaz pensada
+          para chatear de forma clara y cómoda.
+        </p>
+        <br />
+        <p>
+          Incluye autenticación de usuarios, listado de contactos o chats y
+          actualización en vivo cuando llegan nuevos mensajes, de modo que la
+          experiencia se acerca a un chat moderno en la web.
+        </p>
+        <br />
+        <aside className='project_desc_note' role='note'>
+          <strong>Aviso</strong>
+          <span>
+            El backend está desplegado en un hosting con plan gratuito; puede
+            entrar en inactividad y tardar unos segundos en responder al volver a
+            activarse.
+          </span>
+        </aside>
+      </div>
+    ),
+  },
 ];
