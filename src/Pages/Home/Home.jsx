@@ -13,9 +13,10 @@ const Home = () => {
         {/* <span>Desarrollador Front-End</span> */}
         <p>
         
-<b>Desarrollador FullStack especializado en React y Node.</b>
+<b>Desarrollador Full Stack especializado en React y Node.js.</b>
 <br />
-Construyo aplicaciones web escalables, integro APIs externas y optimizo la experiencia del usuario. Me motiva resolver problemas reales, trabajar en equipo y seguir aprendiendo con cada proyecto.
+Construyo aplicaciones web enfocadas en rendimiento, escalabilidad y experiencia de usuario.
+Experiencia integrando APIs y optimizando sistemas frontend y backend en proyectos reales.
         </p>
 
         <button onClick={() => changeActiveSearch()}>

@@ -19,9 +19,6 @@
     -webkit-text-fill-color: transparent;
     font-size: 62px;
   }
-.about__info__text_container{
-  width: fit-content;
-}
   .about__info {
     display: flex;
     justify-content: space-between;
@@ -30,6 +27,18 @@
     margin-bottom: 20px;
 
     min-width: 400px;
+
+    .about__info__text_container {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+      min-width: 0;
+
+      p {
+        flex: 0 0 auto;
+      }
+    }
 
     .img_container {
       /* height: 100%; */

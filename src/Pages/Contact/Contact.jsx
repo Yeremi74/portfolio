@@ -86,7 +86,7 @@ const Contact = () => {
         <span>
           Ver mi CV en{' '}
           <a
-            href='/CV Yeremi Gonzalez2.pdf'
+            href='/CV Yeremi Gonzalez.pdf'
             download='CV Yeremi Gonzalez'
           >
             formato PDF
