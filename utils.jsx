@@ -121,6 +121,25 @@ export const projectList = [
   //   img: 'https://yeremiportafolio.netlify.app/Task manager.PNG',
   // },
   {
+    title: 'Tibisay Hoteles',
+    img: '/tibisayhoteles.com_.png',
+    url: 'https://tibisayhoteles.com',
+    desc: (
+      <div>
+        <p>
+          Sitio web para la línea de hoteles Tibisay, desarrollado en{' '}
+          <strong>Ova Vision</strong>. Partimos de una presencia online ya
+          existente y la renovamos con un enfoque más minimalista y moderno.
+        </p>
+        <br />
+        <p>
+          Me encargué de traducir los diseños a código, cuidando la interfaz y
+          la experiencia para reflejar la nueva identidad visual de la marca.
+        </p>
+      </div>
+    ),
+  },
+  {
     title: 'Expense Tracker (multi‑moneda)',
     img: 'https://yeremiportafolio.netlify.app/expenseTracker.png',
     url: 'https://expense-tracker-yg.vercel.app',
