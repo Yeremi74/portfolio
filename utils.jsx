@@ -155,7 +155,9 @@ export const projectList = [
           Incluye un <strong>panel de administrador</strong> donde se pueden
           gestionar productos y colecciones, además de ver{' '}
           <strong>estadísticas del negocio</strong> para apoyar la toma de
-          decisiones.
+          decisiones. Puedes entrar visitando la ruta <strong>/admin</strong> o
+          también desde el enlace del <strong>footer</strong> (pie de página)
+          de la tienda.
         </p>
         <br />
         <p>
