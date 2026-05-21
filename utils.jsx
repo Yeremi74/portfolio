@@ -140,6 +140,44 @@ export const projectList = [
     ),
   },
   {
+    title: 'Ecommerce YG — marca streetwear ficticia',
+    img: '/ecommerce.png',
+    url: 'https://ecommerceshopyg.netlify.app',
+    desc: (
+      <div>
+        <p>
+          Tienda online de una marca ficticia de ropa: catálogo con productos,
+          navegación por la tienda y flujo típico de compra desde el escaparate
+          público.
+        </p>
+        <br />
+        <p>
+          Incluye un <strong>panel de administrador</strong> donde se pueden
+          gestionar productos y colecciones, además de ver{' '}
+          <strong>estadísticas del negocio</strong> para apoyar la toma de
+          decisiones.
+        </p>
+        <br />
+        <p>
+          <strong>Panel de administrador — credenciales de demostración:</strong>
+          <br />
+          <span className='user'>Email:</span> admin@gmail.com
+          <br />
+          <span className='user'>Contraseña:</span> admin123
+        </p>
+        <br />
+        <aside className='project_desc_note' role='note'>
+          <strong>Aviso</strong>
+          <span>
+            El backend está desplegado en un hosting con plan gratuito; puede
+            entrar en inactividad y tardar unos segundos en responder al volver a
+            activarse.
+          </span>
+        </aside>
+      </div>
+    ),
+  },
+  {
     title: 'Expense Tracker (multi‑moneda)',
     img: 'https://yeremiportafolio.netlify.app/expenseTracker.png',
     url: 'https://expense-tracker-yg.vercel.app',
