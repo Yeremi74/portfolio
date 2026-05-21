@@ -1,11 +1,52 @@
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FaArrowRight } from 'react-icons/fa6';
 import './projects.css';
 import { projectList } from '../../../utils';
+import ProjectGallery from '../../Components/ProjectGallery/ProjectGallery';
+import { getGalleryImages } from '../../data/projectGalleryAssets';
+
+const galleryForProject = (item) => {
+  if (item.imageFolder) {
+    const fromFolder = getGalleryImages(item.imageFolder);
+    if (fromFolder.length) return fromFolder;
+  }
+  return item.img ? [item.img] : [];
+};
+
+const thumbSrc = (item) => {
+  if (item.imageFolder) {
+    const fromFolder = getGalleryImages(item.imageFolder);
+    if (fromFolder.length) return fromFolder[0];
+  }
+  return item.img ?? '';
+};
 
 const Projects = () => {
+  const [gallery, setGallery] = useState(null);
+
+  const openGallery = (item) => {
+    const images = galleryForProject(item);
+    if (!images.length) return;
+    const start = thumbSrc(item);
+    let startIndex = start ? images.indexOf(start) : 0;
+    if (startIndex < 0) startIndex = 0;
+    setGallery({ title: item.title, images, index: startIndex });
+  };
+
+  const closeGallery = () => setGallery(null);
+
   return (
     <main className='project_container'>
+      <ProjectGallery
+        isOpen={!!gallery}
+        title={gallery?.title ?? ''}
+        images={gallery?.images ?? []}
+        index={gallery?.index ?? 0}
+        onClose={closeGallery}
+        onNavigate={(next) => setGallery((prev) => (prev ? { ...prev, index: next } : prev))}
+      />
+
       <div className='projects_info'>
         <h2>Pasión. Aprendizaje. Descubrir.</h2>
         <p>🚧 Proyectos en desarrollo
@@ -30,10 +71,18 @@ const Projects = () => {
                   Visitar Proyecto <FaArrowRight />
                 </Link>
               </div>
-              <img
-                src={`${item.img}`}
-                alt={`imagen del projecto: ${item.title}`}
-              />
+              <button
+                type='button'
+                className='project_image_btn'
+                onClick={() => openGallery(item)}
+                aria-label={`Ver galería de imágenes: ${item.title}`}
+              >
+                <img
+                  src={thumbSrc(item)}
+                  alt={`Captura del proyecto: ${item.title}`}
+                  loading='lazy'
+                />
+              </button>
             </div>
           ))}
         </div>

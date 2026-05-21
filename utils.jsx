@@ -122,7 +122,7 @@ export const projectList = [
   // },
   {
     title: 'Tibisay Hoteles',
-    img: '/tibisayhoteles.com_.png',
+    imageFolder: 'tibisay-hoteles',
     url: 'https://tibisayhoteles.com',
     desc: (
       <div>
@@ -141,7 +141,7 @@ export const projectList = [
   },
   {
     title: 'Ecommerce YG — marca streetwear ficticia',
-    img: '/ecommerce.png',
+    imageFolder: 'ecommerce-yg',
     url: 'https://ecommerceshopyg.netlify.app',
     desc: (
       <div>

@@ -115,19 +115,39 @@
           }
         }
 
-        img {
+        .project_image_btn {
           width: 50%;
+          padding: 0;
+          margin: 0;
+          border: none;
+          background: transparent;
+          cursor: pointer;
+          border-radius: 15px;
+          overflow: hidden;
+          line-height: 0;
+          flex-shrink: 0;
+
+          &:focus-visible {
+            outline: 3px solid var(--colors-orange);
+            outline-offset: 4px;
+          }
+        }
+
+        .project_image_btn img {
+          width: 100%;
           height: 400px;
           object-fit: cover;
           object-position: center;
           border-radius: 15px;
-          transition: all 0.2s;
+          transition:
+            transform 0.2s ease,
+            box-shadow 0.2s ease;
+          vertical-align: middle;
+          display: block;
         }
 
-        &:hover {
-          img {
-            transform: translateY(-20px);
-          }
+        &:hover .project_image_btn img {
+          transform: translateY(-20px);
         }
       }
     }
@@ -163,7 +183,7 @@
               width: 100%;
             }
           }
-          img {
+          .project_image_btn {
             width: 100%;
           }
         }
