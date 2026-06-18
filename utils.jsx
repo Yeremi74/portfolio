@@ -181,7 +181,6 @@ export const projectList = [
   },
   {
     title: 'Expense Tracker (multi‑moneda)',
-    img: 'https://yeremiportafolio.netlify.app/expenseTracker.png',
     url: 'https://expense-tracker-yg.vercel.app',
     desc: (
       <div>
@@ -197,13 +196,6 @@ export const projectList = [
           automáticamente a Bs, USD y USDT, manteniendo el contexto de cada
           transacción en el tiempo para que entiendas cuánto gastaste, sin
           distorsiones por el tipo de cambio.
-        </p>
-        <br />
-        <strong>Estrategia 50/30/20</strong>
-        <p>
-          Incluye una sección basada en la regla 50/30/20: 50% necesidades, 30%
-          estilo de vida y 20% ahorro o inversión, para organizar tus gastos de
-          forma simple y efectiva.
         </p>
         <br />
         <p>
@@ -222,6 +214,7 @@ export const projectList = [
         </aside>
       </div>
     ),
+    imageFolder: 'tracker',
   },
   {
     title: 'WhatsApp Clone (mensajería en tiempo real)',
