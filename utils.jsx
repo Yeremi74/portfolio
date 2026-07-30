@@ -121,6 +121,138 @@ export const projectList = [
   //   img: 'https://yeremiportafolio.netlify.app/Task manager.PNG',
   // },
   {
+    title: 'Downtown Beach Club',
+    imageFolder: 'downtown-beach-club',
+    url: 'https://downtownbeachclubmargarita.com',
+    desc: (
+      <div>
+        <p>
+          Sitio web para Downtown Beach Club, complejo de ocio y gastronomía en
+          Playa Moreno, Isla de Margarita. Desarrollado en{' '}
+          <strong>Ova Vision</strong> junto al equipo de Tibisay.
+        </p>
+        <br />
+        <p>
+          La web presenta la propuesta del club — restaurantes, eventos, playa y
+          experiencias frente al mar — con un diseño visual que transmite el
+          ambiente caribeño y la identidad de la marca.
+        </p>
+        <br />
+        <p>
+          Me encargué de traducir los diseños a código, cuidando la interfaz, la
+          navegación y la experiencia en desktop y móvil.
+        </p>
+      </div>
+    ),
+  },
+  {
+    title: 'Red de Acopio Venezuela',
+    imageFolder: 'red-de-acopio',
+    url: 'https://www.redeacopiovenezuela.com',
+    desc: (
+      <div>
+        <p>
+          Plataforma creada tras el terremoto ocurrido en Venezuela para
+          centralizar y visibilizar centros de acopio, hospitales, refugios y
+          otros puntos de ayuda en un mapa interactivo a nivel nacional.
+        </p>
+        <br />
+        <p>
+          Permite <strong>registrar nuevos centros</strong> con datos de
+          ubicación, tipo de instalación y prioridad, y consultarlos mediante
+          búsqueda por nombre, filtros por estado y categorías como centro de
+          acopio, hospital, iglesia, escuela o albergue.
+        </p>
+        <br />
+        <p>
+          El objetivo es facilitar la coordinación de ayuda humanitaria:
+          que quien necesite donar o recibir apoyo encuentre rápidamente dónde
+          acudir.
+        </p>
+      </div>
+    ),
+  },
+  {
+    title: 'Veloce Elite — alquiler de autos de lujo',
+    imageFolder: 'veloce-elite',
+    url: 'https://rentcarh.vercel.app',
+    desc: (
+      <div>
+        <p>
+          Sitio web para una tienda de alquiler de vehículos premium. Presenta
+          la flota — superdeportivos, SUVs, sedanes ejecutivos y convertibles —
+          con un diseño elegante orientado a transmitir exclusividad y confianza.
+        </p>
+        <br />
+        <p>
+          Incluye buscador de reservas por fechas, categoría y ubicación,
+          catálogo de vehículos destacados, secciones de experiencias, membresía
+          VIP, testimonios y destinos exclusivos para completar la propuesta de
+          marca.
+        </p>
+        <br />
+        <p>
+          Desarrollé la interfaz y la experiencia de navegación, cuidando el
+          detalle visual y la sensación de lujo en desktop y móvil.
+        </p>
+      </div>
+    ),
+  },
+  {
+    title: 'Prestige Estates — inmobiliaria de lujo',
+    imageFolder: 'prestige-estates',
+    url: 'https://prestigeestateh.vercel.app',
+    desc: (
+      <div>
+        <p>
+          Sitio web para una inmobiliaria de lujo. Presenta residencias
+          exclusivas en ubicaciones premium de España y el extranjero, con un
+          diseño sobrio y elegante acorde a la propuesta de la marca.
+        </p>
+        <br />
+        <p>
+          Incluye buscador por ciudad y tipo de propiedad, catálogo de villas,
+          penthouses y casas frente al mar, secciones de compra, venta y
+          alquiler, zonas destacadas, blog y formulario para agendar citas con
+          asesores.
+        </p>
+        <br />
+        <p>
+          Desarrollé la interfaz y la experiencia de navegación, priorizando la
+          presentación visual de las propiedades y una sensación de exclusividad
+          en desktop y móvil.
+        </p>
+      </div>
+    ),
+  },
+  {
+    title: 'AURÉA — joyería de autor',
+    imageFolder: 'aurea-jewelry',
+    url: 'https://aureajewelryh.vercel.app',
+    desc: (
+      <div>
+        <p>
+          Sitio web para una joyería de lujo. Presenta piezas únicas de autor
+          con un diseño refinado que destaca la artesanía, los materiales
+          premium y la identidad de la marca.
+        </p>
+        <br />
+        <p>
+          Incluye colecciones por categoría — anillos, collares, aretes y
+          pulseras —, catálogo de productos destacados, sección de
+          personalización con vista previa, proceso artesanal, galería
+          editorial y newsletter.
+        </p>
+        <br />
+        <p>
+          Desarrollé la interfaz y la experiencia de navegación, cuidando la
+          presentación visual de las piezas y una sensación de exclusividad en
+          desktop y móvil.
+        </p>
+      </div>
+    ),
+  },
+  {
     title: 'Tibisay Hoteles',
     imageFolder: 'tibisay-hoteles',
     url: 'https://tibisayhoteles.com',

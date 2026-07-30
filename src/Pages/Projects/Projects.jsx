@@ -24,6 +24,7 @@ const thumbSrc = (item) => {
 
 const Projects = () => {
   const [gallery, setGallery] = useState(null);
+  const hasProjects = projectList.length > 0;
 
   const openGallery = (item) => {
     const images = galleryForProject(item);
@@ -49,9 +50,15 @@ const Projects = () => {
 
       <div className='projects_info'>
         <h2>Pasión. Aprendizaje. Descubrir.</h2>
-        <p>🚧 Proyectos en desarrollo
-        <br />
-        Actualmente estoy trabajando en nuevos proyectos personales que pronto verán la luz. Mientras tanto, te invito a explorar mi experiencia laboral y formación académica para conocer mejor mi trabajo.</p>
+        {!hasProjects && (
+          <p>
+            🚧 Proyectos en desarrollo
+            <br />
+            Actualmente estoy trabajando en nuevos proyectos personales que pronto
+            verán la luz. Mientras tanto, te invito a explorar mi experiencia
+            laboral y formación académica para conocer mejor mi trabajo.
+          </p>
+        )}
       </div>
 
       <div className='projects'>
