@@ -139,8 +139,8 @@ export const projectList = [
         </p>
         <br />
         <p>
-          Me encargué de traducir los diseños a código, cuidando la interfaz, la
-          navegación y la experiencia en desktop y móvil.
+          Construí las secciones de restaurantes, eventos y experiencias, con
+          navegación clara entre las distintas áreas del complejo.
         </p>
       </div>
     ),
@@ -192,8 +192,8 @@ export const projectList = [
         </p>
         <br />
         <p>
-          Desarrollé la interfaz y la experiencia de navegación, cuidando el
-          detalle visual y la sensación de lujo en desktop y móvil.
+          Implementé el flujo de reservas y el catálogo de vehículos, con
+          layouts pensados para destacar cada modelo en desktop y móvil.
         </p>
       </div>
     ),
@@ -206,8 +206,7 @@ export const projectList = [
       <div>
         <p>
           Sitio web para una inmobiliaria de lujo. Presenta residencias
-          exclusivas en ubicaciones premium de España y el extranjero, con un
-          diseño sobrio y elegante acorde a la propuesta de la marca.
+          exclusivas en ubicaciones premium de España y el extranjero.
         </p>
         <br />
         <p>
@@ -218,9 +217,9 @@ export const projectList = [
         </p>
         <br />
         <p>
-          Desarrollé la interfaz y la experiencia de navegación, priorizando la
-          presentación visual de las propiedades y una sensación de exclusividad
-          en desktop y móvil.
+          Trabajé en el buscador de propiedades, las fichas de inmuebles y el
+          formulario de citas, priorizando que fotos y datos se lean bien en
+          cualquier dispositivo.
         </p>
       </div>
     ),
@@ -245,9 +244,9 @@ export const projectList = [
         </p>
         <br />
         <p>
-          Desarrollé la interfaz y la experiencia de navegación, cuidando la
-          presentación visual de las piezas y una sensación de exclusividad en
-          desktop y móvil.
+          Desarrollé las páginas de colecciones, la vista previa de
+          personalización y la galería editorial, poniendo el foco en cómo se
+          muestran las piezas.
         </p>
       </div>
     ),
@@ -265,8 +264,9 @@ export const projectList = [
         </p>
         <br />
         <p>
-          Me encargué de traducir los diseños a código, cuidando la interfaz y
-          la experiencia para reflejar la nueva identidad visual de la marca.
+          Renové la web existente con un enfoque más minimalista: reorganicé la
+          estructura, actualicé la interfaz y mejoré la experiencia en desktop
+          y móvil.
         </p>
       </div>
     ),
